@@ -19,14 +19,32 @@
     justify-content: space-between
     
 }
+.R6{
+position: absolute;
+width: 80px;
+height: 40px;
+left: -30px;
+top:150px;
+}
+.E11{
+    position: absolute;
+    width: 80px;
+    margin-bottom:50px;
+}
+.E3{ 
+   position: absolute;
+width: 105px;
+height: 105px;
+left: 323px;
+
+justify-content: end;
+}
 .uni img{
     height: 15px;
     margin-right: 20px;
 }
 .uni p{
     margin-left: 10px;
-
-}
 .greeting{
     width: 300px;
     height: 150px;
@@ -54,3 +72,4 @@ color: blue;
 .bottom{
     color: blue;
 }
+

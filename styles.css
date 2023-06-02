@@ -78,6 +78,7 @@ display: flex;
     font-weight: 800px;
     font-size: 30px;
     margin-top: 200px;
+    background: url("asset/background\ img.png"), no-repeat ;
 
 }
 .bottom{
@@ -88,12 +89,12 @@ line-height:150%;
 color:blue;
 }
 .content{
-    display: flex;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    color:#344563;
+    line-height: 24px;
 }
 ul {
     display: flex;
@@ -108,7 +109,3 @@ ul {
     list-style: none;
     padding: 8px;
   }
-
-body{
-    color: aquamarine;
-}

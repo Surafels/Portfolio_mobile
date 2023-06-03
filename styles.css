@@ -145,7 +145,12 @@ ul li {
     border: solid;
     border-radius: 8px;
 }
-
+.item-four{
+    display: flexbox;
+    border: solid;
+    border-radius: 3px;
+    padding: 40px;
+}
 .background{
     background-image: url("asset/Snapshoot\ Portfolio.png");
     background-repeat: no-repeat;
@@ -156,11 +161,36 @@ ul li {
    }
 .see{
     display: flex;
+
+
+    font-weight: 500;
+    display: flexbox;
     border: solid;
     border-radius: 10px;
-    color: #396df2;
+    text-align: center;
+    color: #396df2; 
 
-
+}
+.resume{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.language{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.java{
+    border:solid #f7f7f9;
+    padding: 15px;
     
-
+}
+.html{
+    border:solid #f7f7f9;
+    padding: 15px;
+}
+.css{
+    border:solid #f7f7f9;
+    padding: 15px;
 }

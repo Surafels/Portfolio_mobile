@@ -75,3 +75,77 @@ ul {
 ul li {
   list-style: none;
 }
+.background{
+    background-image: url("asset/Snapshoot\ Portfolio.png");
+    background-repeat: no-repeat;
+     border-radius: 8px;
+     flex: none;
+}
+.can{
+    display: grid;
+    grid-template-rows:auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    
+
+}
+.canopy{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+
+}
+.bed{
+    display: flex;
+    gap: 45px;
+    color:#7a869a;
+    font-weight: 600;
+    line-height: 16px;
+}
+.daily{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+
+}
+.grid-container{
+    display: grid;
+    display: flex;
+    grid-template-columns:auto auto auto;
+    
+
+}
+.grid-item{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    line-height: 16px;
+    color:#6070ff;
+    width: 100px;
+    height: 20px;
+    gap: 1px;
+
+}
+.background{
+    background-image: url("asset/Snapshoot\ Portfolio.png");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+   width: 295px;
+   height: 220px; 
+   align-items: center;
+   }
+.footer{
+    display: flex;
+    text-align: center;
+    text-align: center;
+    color: #396df2;
+    font-weight: 500;
+    border: solid 2ex;
+
+}

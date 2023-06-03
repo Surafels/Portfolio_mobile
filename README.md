@@ -1,9 +1,7 @@
 <a name="readme-top"></a
-
 <div align="center">
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-
   <h3><b>Microverse README Template</b></h3>
 </div>
 # 📗 Table of Contents
@@ -29,7 +27,7 @@
 - [📝 License](#license)
 # 📖 [your_project_name] <a name="Mobile portfolio"></a>
 A portfolio applicable for mobile and desktop.
-**[your_project__name]** is a...
+**[Mobile portfolio]** is a templet of portfolio dispaly on mobile.
 <details>
   <summary>Client</summary>
   <ul>

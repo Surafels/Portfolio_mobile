@@ -107,6 +107,8 @@ ul li {
     line-height: 16px;
 }
 .daily{
+    display: flex;
+    right: 50%;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -116,22 +118,34 @@ ul li {
 }
 .grid-container{
     display: grid;
-    display: flex;
     grid-template-columns:auto auto auto;
-    
-
-}
-.grid-item{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: center;
-    line-height: 16px;
+    line-height:15px;
     color:#6070ff;
-    width: 100px;
-    height: 20px;
-    gap: 1px;
+    width: 57px;
+    height: 24px;
+    gap:50px;
 
 }
+.item-one{
+    display: flex;
+    border:solid;
+    border-radius: 8px;
+
+}
+.item-two{
+    display: flexbox;
+    border: solid ;
+    border-radius: 8px;
+}
+.item-three{
+    display: flexbox;
+    border: solid;
+    border-radius: 8px;
+}
+
 .background{
     background-image: url("asset/Snapshoot\ Portfolio.png");
     background-repeat: no-repeat;
@@ -140,12 +154,13 @@ ul li {
    height: 220px; 
    align-items: center;
    }
-.footer{
+.see{
     display: flex;
-    text-align: center;
-    text-align: center;
+    border: solid;
+    border-radius: 10px;
     color: #396df2;
-    font-weight: 500;
+
+
     
 
 }

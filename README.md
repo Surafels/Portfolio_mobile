@@ -12,7 +12,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -77,7 +76,7 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Surafel Chaka**
 
 - GitHub: [@Surafels](https://github.com/Surafels)
 
@@ -90,7 +89,7 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Surafels/Portfolio_Mobile/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

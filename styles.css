@@ -1,70 +1,78 @@
 
-*{
-    padding:0px;
-    margin:0px;
-}
-.uni{
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-    color:#6070ff;  
-}
-.uni img{
-    height: 15px;
-    margin-right: 20px;
-    margin-top: 20px;
-    right: 20px;
-}
-.uni a{
-    margin: 20px;
-    text-decoration: none;
-}
-.intro{
-    background-size: cover;
-    background: url('asset/background\ img.png');
-    background-repeat: no-repeat;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.greeting{
- display: flex;
- flex-direction: column;
- height: 600px;
+.uni {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  color: #6070ff;
 }
-.greeting h1{
-    margin:120px 24px 2px;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-weight: 800;
-    font-size: 30px;
+
+.uni img {
+  height: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  right: 20px;
 }
-.content{
-    font-family:'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color:#344563;
-    line-height: 24px;
-    margin: 2px 24px;
+
+ul li a {
+  color: #dbd8d7;
+  list-style: none;
+  padding: 8px;
 }
-.bottom{
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height:150%;
-color:blue;
-margin: 2px 24px;
+
+
+.uni a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.intro {
+  background: url('asset/background\ img.png');
+  background-repeat: no-repeat;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.greeting h1 {
+  margin: 120px 24px 2px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.content {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  line-height: 24px;
+  margin: 2px 24px;
+}
+
+.bottom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: blue;
+  margin: 2px 24px;
 }
 
 ul {
-    display: flex;
-    margin: 2px 24px;
+  display: flex;
+  margin: 2px 24px;
 }
-  
+
 ul li {
-    list-style: none;
-}
-ul li a {
-    color: #dbd8d7;
-    list-style: none;
-    padding: 8px;
+  list-style: none;
 }

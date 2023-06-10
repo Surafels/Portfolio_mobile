@@ -555,8 +555,8 @@
   letter-spacing: 0.03em;
   color: #396df2;
   border: 1px solid #396df2;
-  border-radius: 16px;
-  padding: 16px;
+  border-radius: 8px;
+  padding: 12px;
 }
 
 .bott:hover {

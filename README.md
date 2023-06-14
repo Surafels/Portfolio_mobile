@@ -77,6 +77,7 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Surafel Chaka**
+👤 **Pritikant Dhal**
 
 - GitHub: [@Surafels](https://github.com/Surafels)
 
@@ -100,7 +101,7 @@ If you like this project please put star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my partners.
+We would like to thank my partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

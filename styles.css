@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,900;1,500;1,600&display=swap');
 
 * {
   padding: 0;
@@ -553,18 +554,18 @@
 }
 
 .form {
-  margin-top: 5rem;
-  padding: 6% -1.5rem;
-  color: #fff;
-  background-image: url("asset/background\ img.png");
-  background-color: #6070ff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  background-clip: inherit;
-  background-position: 1.875rem -3.1875rem;
-  border-radius: 5rem 0 0 0;
   position: relative;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #6070ff;
+  border-top-left-radius: 60px;
+  background-image: url(asset/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top 55px right 0;
 }
 
 .form-container {
@@ -576,6 +577,7 @@
 }
 
 .form-container .paragraph {
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   text-align: center;
   color: #ebebff;
@@ -584,6 +586,8 @@
   padding-bottom: 0.7rem;
   font-size: 20px;
   line-height: 28px;
+  margin-bottom: 52px;
+  height: 137px;
 }
 
 .form-header {
@@ -617,7 +621,8 @@ form input {
   display: block;
   width: 80%;
   transform: translateX(13%);
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
   font-weight: 400;
   font-size: 17px;
   color: #172b4d;
@@ -644,6 +649,7 @@ textarea {
   color: #b3bac5;
   padding: 0.8rem 0.5rem;
   font-family: 'Poppins', sans-serif;
+  height: 170px;
 }
 
 .btn {

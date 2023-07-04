@@ -105,6 +105,7 @@
   height: 20px;
   justify-content: space-around;
   gap: 12px;
+  margin-top: 0;
   margin-left: 0;
   size: 20px;
   list-style: none;

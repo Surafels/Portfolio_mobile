@@ -5,8 +5,10 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+@media screen and (min-width: 80%) {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
 }
 
 .header {
@@ -36,6 +38,7 @@ body {
   line-height: 20px;
   text-decoration: none;
   padding: 10px 12px 10px 12px;
+  font-family: 'poppins', sans-serif;
 }
 
 .introduction {
@@ -46,20 +49,20 @@ body {
   gap: 12px;
   width: 327px;
   height: 376px;
-  color: #f7f7f9;
-  margin-bottom: 114px;
+  background-color: white;
+  margin-bottom: 30px;
+  background-image: url(asset/background.png);
+  background-repeat: no-repeat;
 }
 
 .intro {
   width: 375px;
-  background: url(asset/background.png);
-  background-repeat: no-repeat;
+  margin-bottom: -22px;
   border-bottom-left-radius: 60px;
 }
 
 .greeting {
   display: flex;
-  width: 327px;
   height: 150px;
   flex-direction: column;
   justify-content: center;
@@ -69,6 +72,7 @@ body {
   line-height: 52px;
   color: #172b4d;
   margin: 0 24px 12px 24px;
+  font-family: 'poppins', sans-serif;
 }
 
 .detail {
@@ -82,6 +86,7 @@ body {
   line-height: 24px;
   color: #344563;
   margin: 0 24px 0 24px;
+  font-family: 'poppins', sans-serif;
 }
 
 .address {
@@ -91,6 +96,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   margin: 0 24px 12px 24px;
+  font-family: 'poppins', sans-serif;
 }
 
 .icons {
@@ -111,6 +117,7 @@ body {
   align-items: center;
   background-color: #f7f7f9;
   gap: 88px;
+  font-family: 'poppins', sans-serif;
 
   /* width: 375px; */
 }
@@ -131,6 +138,7 @@ body {
 
 .tcb {
   margin-left: 16px;
+  margin-top: -12px;
 }
 
 .can {
@@ -145,11 +153,20 @@ body {
 }
 
 .can li {
-  color: var(--neutrals-n-100, #7a869a);
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
+}
+
+.bed {
+  color: var(--neutrals-n-600, #344563);
+  color: var(--neutrals-n-100, #7a869a);
+}
+
+.li.bed ::marker {
+  border-radius: 8px;
+  background: var(--neutrals-n-50, #c1c7d0);
 }
 
 .tonic {
@@ -167,11 +184,8 @@ body {
 
 .canopy {
   list-style: none;
-  color: var(--neutrals-n-600, #344563);
-  font-size: 13px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
+  color: var(--neutrals-n-600, #344563);
 }
 
 .daily {
@@ -325,20 +339,16 @@ body {
 }
 
 .myself {
-  width: 375px;/*
-height: 834px; */
+  width: 375px;
   border-top-right-radius: 60px;
   background: var(--neutrals-n-10, #fff);
+  font-family: 'poppins', sans-serif;
 }
 
 .about-myself {
   display: flex;
   padding: 114px 0;
-  flex-direction: column; /*
-width: 375px;
-height: 834px; */
-  margin-top: 0;/*
-background-color: #F7F7F9; */
+  flex-direction: column;
 }
 
 .about {

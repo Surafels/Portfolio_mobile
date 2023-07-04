@@ -290,12 +290,19 @@
   border: 1px solid var(--primary-b-400, #6070ff);
   right: 85px;
   background: var(--neutrals-n-0, #fff);
+  cursor: pointer;
 }
 
-.button :hover {
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
-  background-color: rgb(19, 16, 16);
+.button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.button:active {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 /* card-2 */
@@ -411,14 +418,16 @@
   cursor: pointer;
 }
 
-.button-a :hover {
-  border-radius: 8px;
-  box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
-  background: var(--theme-1-primary-colors-2, #6070ff);
+.button-a:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.button-a :active {
-  border-radius: 8px;
+.button-a:active {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .icon {
@@ -670,11 +679,19 @@ textarea {
   border: 1px solid var(--primary-b-400, #6070ff);
   margin-left: 24px;
   background: var(--neutrals-n-0, #fff);
+  cursor: pointer;
 }
 
-.button-contact :hover {
-  cursor: pointer;
-  background-color: rgb(19, 16, 16);
+.button-contact:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.button-contact:active {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 hr {

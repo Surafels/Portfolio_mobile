@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 <div align="center">
-  <br/>
 
   <h3><b>Microverse README Template</b></h3>
 
@@ -12,9 +11,10 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -26,8 +26,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-# 📖 [Mobile_Portfolio] <a name="Mobile_Portfolio"></a>
-**[Portfolio_Mobile]** is a portfolio project for the mobile version.
+
+# 📖 [Portfolio_Mobile_] <a name="Portfolio_Mobile"></a>
+**[Portfolio_Mobile_]** is a portfolio project for the mobile version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,19 +39,30 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 ### Key Features <a name="key-features"></a>
 - **[Linters]**
 - **[Webhint]**
 - **[Stylelint]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
-To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 - IDE(code editor) like: **Vscode**, **Sublime**, etc. 
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) 
 
-### Setup 
+### Setup
 
 1. Download the **Zip** file or clone the repo with:
 ```bash git clone git@github.com:Surafels/Portfolio_Mobile.git ``` 
@@ -58,7 +70,7 @@ To get a local copy up and running, follow these steps.
 ```bash cd Portfolio_Mobile ``` 
 3. Open it with the live server 
 
-### Install 
+### Install
 
 ```bash npm install ``` 
 
@@ -72,12 +84,13 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 3. For tracking linter errors in JavaScript files run:
 ```bash npx eslint . ``` 
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Surafel Chaka**
-
 - GitHub: [@Surafels](https://github.com/Surafels)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +102,9 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/Surafels/Portfolio_Mobile/issues).
+
+Feel free to check the [issues page]
+(https://github.com/Surafels/Portfolio_Mobile/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,11 +113,14 @@ Feel free to check the [issues page](https://github.com/Surafels/Portfolio_Mobil
 If you like this project please put star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank my partners.
+I would like to thank my partners.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 📝 License <a name="license"></a>
 

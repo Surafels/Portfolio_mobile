@@ -26,8 +26,8 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-# 📖 [project_name] <a name="Mobile_Portfolio"></a>
-**[Portfolio_Mobile]** is describing greeting for Microverese 
+# 📖 [Mobile_Portfolio] <a name="Mobile_Portfolio"></a>
+**[Portfolio_Mobile]** is a portfolio project for the mobile version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -100,7 +100,7 @@ If you like this project please put star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my partners.
+We would like to thank my partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

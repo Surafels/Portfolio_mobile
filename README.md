@@ -110,13 +110,13 @@ Feel free to check the [issues page]
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please put star.
+If you like this project please put a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my partners.
+I want to thank my partners.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

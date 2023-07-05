@@ -375,6 +375,7 @@
   line-height: 52px;
 }
 
+
 .detail-about {
   display: flex;
   width: 327px;
@@ -443,7 +444,6 @@
 .languages {
   display: flex;
   flex-direction: column;
-  padding: 16px 26px 16px 12px;
   align-items: center;
   gap: 12px;
   margin-top: 24px;
@@ -459,6 +459,10 @@
   font-weight: 500;
   line-height: 24px;
   padding: 16px 26px 16px 12px;
+  align-items: center;
+  justify-content: space-around;
+  gap:139px;
+  margin-right: 24px;
 }
 
 .down-arrow {
@@ -466,7 +470,9 @@
   height: 24px;
   margin: 8px;
 }
-
+.arrow{
+  padding: 8px;
+}
 .lan {
   display: flex;
 }
@@ -480,13 +486,14 @@
   width: 303px;
   height: 224px;
   list-style: none;
-  margin-left: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .Js {
   display: flex;
   width: 303px;
-  padding: 9px 12px 9.716px 12px;
+  padding: 9px 0px 9.716px 12px;
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -498,6 +505,7 @@
   font-weight: 500;
   line-height: 20px;
   height: 66.71px;
+  margin-right: 24px;
 }
 
 .js-png {
@@ -529,13 +537,13 @@
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   margin-left: -210px;
 }
-
+/*
 .frameworks {
   display: flex;
   padding: 16px 26px 16px 12px;
   align-items: center;
   gap: 12px;
-}
+} */
 
 .framework {
   display: flex;
@@ -545,24 +553,21 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  padding: 16px 26px 16px 12px;
+  padding: 24px 26px 24px 12px;
+  justify-content: space-around;
+  align-items: center;
+  gap:136px;
+  margin-right: 24px;
 }
-
-.lan-skills {
+/*
+.lan-skill {
   display: flex;
   padding: 16px 26px 16px 12px;
   align-items: center;
-  gap: 12px;
-}
-
-.separator {
-  width: 327px;
-  height: 1px;
-  margin-left: 0;
-  flex-shrink: 0;
-  background: var(--neutrals-n-40, #dfe1e6);
-}
-
+  gap: 210px;
+  justify-content: space-around;
+  margin-left: 12px;
+} */
 .lan-skill {
   display: flex;
   width: 237px;
@@ -571,7 +576,19 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  padding: 16px 26px 16px 12px;
+  padding: 24px 26px 24px 12px;
+  gap: 210px;
+  justify-content: space-around;
+  margin-right: 24px;
+  align-items: center;
+
+}
+.separator {
+  width: 327px;
+  height: 1px;
+  margin-left: 0;
+  flex-shrink: 0;
+  background: var(--neutrals-n-40, #dfe1e6);
 }
 
 .contact-form {

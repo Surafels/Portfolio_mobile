@@ -442,6 +442,7 @@
 
 .languages {
   display: flex;
+  flex-direction: column;
   padding: 16px 26px 16px 12px;
   align-items: center;
   gap: 12px;
@@ -464,6 +465,10 @@
   width: 24px;
   height: 24px;
   margin: 8px;
+}
+
+.lan {
+  display: flex;
 }
 
 .skills {

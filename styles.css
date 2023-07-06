@@ -440,30 +440,6 @@
   list-style: none;
 }
 
-.languages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  margin-top: 24px;
-  margin-bottom: 12px;
-}
-
-.language {
-  display: flex;
-  width: 237px;
-  color: #000;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  padding: 16px 26px 16px 12px;
-  align-items: center;
-  justify-content: space-around;
-  gap: 139px;
-  margin-right: 24px;
-}
-
 .down-arrow {
   width: 24px;
   height: 24px;
@@ -472,23 +448,11 @@
 
 .arrow {
   padding: 8px;
+  width: 24px;
 }
 
 .lan {
   display: flex;
-}
-
-.skills {
-  display: flex;
-  padding: 12px;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  width: 303px;
-  height: 224px;
-  list-style: none;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .Js {
@@ -539,39 +503,21 @@
   margin-left: -210px;
 }
 
-/*
-.frameworks {
-  display: flex;
-  padding: 16px 26px 16px 12px;
-  align-items: center;
-  gap: 12px;
-} */
-
 .framework {
   display: flex;
-  width: 237px;
   color: #000;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   padding: 24px 26px 24px 12px;
-  justify-content: space-around;
   align-items: center;
-  gap: 136px;
+  gap: 126px;
   margin-right: 24px;
+  width: 237px;
 }
 
-/*
-.lan-skill {
-  display: flex;
-  padding: 16px 26px 16px 12px;
-  align-items: center;
-  gap: 210px;
-  justify-content: space-around;
-  margin-left: 12px;
-} */
-.lan-skill {
+.la {
   display: flex;
   width: 237px;
   color: #000;
@@ -579,14 +525,49 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  padding: 24px 26px 24px 12px;
-  gap: 210px;
-  justify-content: space-around;
-  margin-right: 24px;
+  padding: 16px 26px 16px 12px;
+  list-style: none;
+  margin-top: 24px;
+}
+
+.lan-skill {
+  display: flex;
   align-items: center;
+  width: 237px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 24px 26px 24px 12px;
+  gap: 199px;
+}
+
+ul.languages {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  width: 237px;
+  gap: 137px;
+}
+
+.skills {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  height: 224px;
+  list-style: none;
 }
 
 .separator {
+  display: flex;
   width: 327px;
   height: 1px;
   margin-left: 0;

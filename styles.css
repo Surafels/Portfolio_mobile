@@ -710,8 +710,7 @@ hr {
   flex-shrink: 0;
   border-radius: 10px;
   background: #0d151e;
-  margin-left: 120px;
-  margin-bottom: 8px;
+  margin: 8px auto;
   /* margin-top: 30px; */
 }
 

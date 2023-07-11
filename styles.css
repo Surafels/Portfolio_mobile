@@ -632,7 +632,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 42px auto 0;
-  max-width: 447px;
+  max-width: 327px;
 }
 
 input {
@@ -684,6 +684,7 @@ textarea {
   line-height: 24px;
   letter-spacing: 0.51px;
   margin-top: 12px;
+  margin-bottom: 12px;
   border-radius: 8px;
   border: 1px solid var(--primary-b-400, #6070ff);
   /*margin-left: 24px; */
@@ -712,7 +713,7 @@ hr {
   background: #0d151e;
   margin-left: 120px;
   margin-bottom: 8px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .top {

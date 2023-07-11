@@ -624,8 +624,7 @@ ul.languages {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  margin-left: 24px;
-  margin-top: 12px;
+  margin: 12px auto 0;
 }
 
 form {

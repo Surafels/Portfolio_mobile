@@ -631,15 +631,12 @@ ul.languages {
 form {
   display: flex;
   flex-direction: column;
-  margin-top: 42px;
-  margin-left: 24px;
-  align-items: flex-start;
+  margin: 42px 24px 0;
 }
 
 input {
   display: flex;
   flex-direction: column;
-  width: 305px;
   height: 26px;
   flex-shrink: 0;
  /* margin-left: 24px; */
@@ -650,9 +647,7 @@ input {
   padding: 10px;
 }
 
-#email #name {
-  display: flex;
-  justify-content: center;
+#email, #name {
   color: var(--neutral-n-800, #172b4d);
   font-size: 17px;
   font-style: normal;
@@ -661,7 +656,6 @@ input {
 }
 
 textarea {
-  width: 325px;
   height: 168px;
   flex-shrink: 0;
   border-radius: 8px;
@@ -674,6 +668,7 @@ textarea {
   line-height: 24px;
  /* margin-left: 24px; */
 }
+
 #message{
   padding: 15px;
 }
@@ -693,6 +688,7 @@ textarea {
   /*margin-left: 24px; */
   background: var(--neutrals-n-0, #fff);
   cursor: pointer;
+  align-self: flex-start;
 }
 
 .button-contact:hover {

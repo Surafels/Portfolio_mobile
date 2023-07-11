@@ -631,7 +631,8 @@ ul.languages {
 form {
   display: flex;
   flex-direction: column;
-  margin: 42px 24px 0;
+  margin: 42px auto 0;
+  max-width: 447px;
 }
 
 input {

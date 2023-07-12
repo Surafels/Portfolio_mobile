@@ -5,8 +5,8 @@
   padding: 0;
 }
 
-/*
-@media screen and (min-width: 80%) {
+
+
   body {
     font-family: 'Poppins', sans-serif;
 
@@ -58,7 +58,6 @@
   margin-bottom: 30px;
   background-image: url(asset/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .intro {
@@ -130,15 +129,13 @@
 .card-1 {
   display: flex;
   padding: 16px;
-  width: 295px;
-  height: 520px;
   flex-direction: column;
   align-items: center;
   gap: 12px;
   border-radius: 16px;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
   background: var(--neutrals-n-0, #fff);
-  margin: 0 24px 0 24px;
+  margin: 0 auto 0 auto;
 }
 
 .tcb {
@@ -725,7 +722,9 @@ hr {
     background-color: #e5e5e5;
     font-family: 'Poppins', sans-serif;
   }
-
+header{
+  background-color: #ffffff;
+}
   .top-head {
     display: none;
   }
@@ -734,9 +733,10 @@ hr {
     display: inline-flex;
     padding: 16px 143px;
     justify-content: center;
-    align-items: flex-start;
-    gap: 796px;
     margin-top: 1px;
+    background-color: #ffffff;
+    gap:131px;
+    width: 100%;
   }
 
   .info {
@@ -747,12 +747,8 @@ hr {
   }
 
   .logo {
-    width: 76px;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 20px;
   }
-
+*/
   .port,
   .abt,
   .cont {
@@ -766,14 +762,10 @@ hr {
   }
 
   .intro {
-    width: 1440px;
+    font-family: sans-serif;
   }
 
   .introduction {
-    display: flex;
-    flex-direction: column;
-    height: 846px;
-    width: 1440px;
     left: 0;
     top: 1px;
     background-color: #fff;
@@ -782,46 +774,46 @@ hr {
     background-size: 99%;
     background-position: top 118px right 0;
     border-bottom-left-radius: 100px;
+    min-width: 768px;
+    margin: auto;
+    padding: 289px 260px;
   }
 
   .greeting {
-    width: 920px;
     height: 122px;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
-    margin: 289px 260px 0 260px;
+    min-width:768px;
+    margin: auto;
   }
 
-  .paragraph {
-    display: flex;
-    margin: 12px 260px;
-    color: var(--theme-1-neutrals-3, #344563);
+  .detail{
+    min-width:768px;
+    margin: auto;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
+    height: 98px;
   }
+  
 
   .address {
-    margin: 12px  260px;
+    margin-bottom: 12px;
   }
 
   .icons {
-    margin: 12px  260px;
-    gap: 8px;
   }
+
 
   .grid-container {
     display: grid;
-    width: 1156px;
-    height: 496px;
+    min-width: 768px;
     grid-template-columns: 1fr 1fr;
     margin: 142px;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     background: #fff;
     grid-gap: 142px;
+    padding: 142px;
   }
 
   .card-1 {
@@ -831,14 +823,16 @@ hr {
     height: 496px;
     flex-shrink: 0;
     border-radius: 24px;
-    border: 1px solid var(--neutrals-n-40, #dfe1e6);
-    background: var(--neutrals-n-0, #fff);
+border: 1px solid var(--neutrals-n-40, #DFE1E6);
+background: var(--neutrals-n-0, #FFF);
+    padding: 142px auto;
   }
 
   .tcb {
     font-family: sans-serif;
   }
-
+}
+/*
   .card-2 {
     display: flex;
     flex-direction: column;
@@ -863,3 +857,4 @@ hr {
     background: var(--neutrals-n-0, #fff);
   }
 }
+

@@ -560,7 +560,7 @@ ul.languages {
   height: 779px;
   background-image: url(asset/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 61%;
   background-position: top 10px right 0;
 }
 
@@ -613,20 +613,28 @@ input {
   border: 1px solid #cfd8dc;
   background: #fff;
   padding: 10px;
+  font-size: 17px;
+  color: var(--neutral-n-800, #172b4d);
+
 }
 
 #email #name {
   display: flex;
   justify-content: center;
   color: var(--neutral-n-800, #172b4d);
+
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
+#message {
+  padding: 6px;
+}
+
 
 textarea {
-  width: 325px;
+  width: 310px;
   height: 168px;
   flex-shrink: 0;
   border-radius: 8px;
@@ -659,6 +667,7 @@ textarea {
   margin-left: 24px;
   background: var(--neutrals-n-0, #fff);
   cursor: pointer;
+  
 }
 
 .button-contact:hover {
@@ -690,7 +699,11 @@ hr {
 .ruby{
   display: none;
 }
-@media screen and (min-width: 375px) {
+.card-img{
+  display: none;
+}
+
+@media screen and (width: 375px) {
   .daily{
     width: 100%;
   }
@@ -709,7 +722,7 @@ header{
   .top-head {
     display: none;
   }
-  .card-1-mob{ 
+  .card-1-mob ,.card-im{ 
     display: none;
   }
 
@@ -857,13 +870,20 @@ background-size: contain;
     width: 100%;
   }
   .contact-detail{
-    margin: auto;
-  }
+    margin: 12px auto;
+    width: 40%;
+    height: auto;
+}
+  
   form{
     margin: auto;
   }
+  form input::placeholder {
+    color: var(--neutral-n-800, #172b4d);
+  }
+  
   .button-contact{
-    margin: auto;
+    margin: 27px auto auto;
   }
   hr{
     display: none;

@@ -135,7 +135,7 @@
   border-radius: 16px;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
   background: var(--neutrals-n-0, #fff);
-  margin: 0 auto 0 auto;
+  margin: 0 24px 0 24px;
 }
 /*
 .tcb {
@@ -237,7 +237,7 @@
   height: 16px;
 }
 
-.jav {
+.jav ,.ruby{
   padding: 4px 12px;
   border-radius: 8px;
   background: var(--primary-b-50, #ebebff);
@@ -311,8 +311,6 @@
 
 .multi {
   display: flex;
-  width: 295px;
-  height: 80px;
   flex-direction: column;
   color: var(--neutrals-n-800, #172b4d);
   font-size: 36px;
@@ -689,6 +687,14 @@ hr {
 .top {
   display: none;
 }
+.ruby{
+  display: none;
+}
+@media screen and (min-width: 375px) {
+  .daily{
+    width: 100%;
+  }
+}
 
 /* desktop version */
 
@@ -834,10 +840,13 @@ margin: 24px 0;
 margin: 12px auto 12px 0;
   }
   .tag{
-margin: 24px 0;
+margin: 0 0 24px 0;
   }
   .button{
 margin-top: 16px;
+  }
+  .ruby{
+    display: flex;
   }
   .contact-me{
     background-image: url(asset/contact\ for\ desk.png);

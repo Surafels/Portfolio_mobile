@@ -77,6 +77,11 @@ body {
   color: #172b4d;
   margin: 0 24px 12px 0;
   font-family: 'poppins', sans-serif;
+  transition: color 1se ease-in-out;
+}
+.greeting:hover{
+  color: red;
+  cursor: pointer;
 }
 
 .detail {

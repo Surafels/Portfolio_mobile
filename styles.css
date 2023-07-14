@@ -551,7 +551,7 @@ ul.languages {
 }
 
 .contact-form {
-  width: 375px;
+  width: 100%;
   flex-shrink: 0;
   margin-top: 62.85px;
 }
@@ -784,18 +784,18 @@ header{
 
   .grid-container {
     border: 1px solid #dfe1e6;
-    border-radius: 24px;
     width: 100%;
     padding-top: 9.86%;
-    /*
-    background: #fff; */
+    background: var(--neutrals-n-10, #f7f7f9);
+
+    
   }
   .card-img{
     width: 50%;
     padding: 24px;
   }
 
-  .card-1 {
+  .card-1, .card-2,.card-4{
 flex-direction: row;    
     height: 496px;
     border-radius: 24px;
@@ -803,19 +803,28 @@ border: 1px solid var(--neutrals-n-40, #DFE1E6); /*
 background: var(--neutrals-n-0, #FFF); */
 width: 80%;
 align-items: normal;
+gap: 0;
+margin: 0 auto 0 auto;;
   }
+  div[class^="card-"]:nth-of-type(even){
+    flex-direction: row-reverse;
+  }
+
+
+
+
+
+
   .wr{
     padding: 24px  24px 22px;
     display: flex;
-    width: 498px;
-    height: 400px;
     flex-direction: column;
   }
 
   .tcb {
     font-family: sans-serif;
   }
-  .tonic{
+  .tonic ,.multi{
 margin-bottom: 16px;
   }
   .daily{
@@ -830,30 +839,26 @@ margin: 24px 0;
   .button{
 margin-top: 16px;
   }
-}
-/*
-  .card-2 {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    width: 1156px;
-    height: 496px;
-    flex-shrink: 0;
-    border-radius: 24px;
-    border: 1px solid var(--neutrals-n-40, #dfe1e6);
-    background: var(--neutrals-n-0, #fff);
+  .contact-me{
+    background-image: url(asset/contact\ for\ desk.png);
+background-repeat: no-repeat;
+background-size: contain;
   }
+  .contact-form{
+    width: 100%;
+  }
+  .contact-detail{
+    margin: auto;
+  }
+  form{
+    margin: auto;
+  }
+  .button-contact{
+    margin: auto;
+  }
+  hr{
+    display: none;
+  }
+}
 
-  .card-4 {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    width: 1156px;
-    height: 496px;
-    flex-shrink: 0;
-    border-radius: 24px;
-    border: 1px solid var(--neutrals-n-40, #dfe1e6);
-    background: var(--neutrals-n-0, #fff);
-  }
-}
 

@@ -727,8 +727,7 @@ header{
     list-style: none;
   }
 
-  .logo {
-  }
+  .
 
   ul .info{
     color: var(--neutrals-n-600, #344563);
@@ -826,7 +825,6 @@ margin: 0 auto 0 auto;;
   }
   .tonic ,.multi{
 margin-bottom: 16px;
-font-size: 40px;
   }
   li .canopy {
     font-size: 18px;
@@ -879,19 +877,30 @@ background-size: contain;
   hr{
     display: none;
   }
+  .about-sec{
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.8fr 1fr;;
+}
+  
+
   .detail-about{
-    width:56%;
-  }
+    width: 60%;
+    height: auto;
+}
+  
   .myself{
     display: flex;
     margin-top: 152px;
   }
   .about-myself{
-    margin: 11.52% auto auto 9.937%;
+   /* margin: 11.52% auto auto 9.937%; */
+   margin: 22.52% auto auto 15.937%;
   }
   .languages{
-    width: 40%;
-    margin: 0 9.86% 11.52% auto;
+   /* margin: 0 9.86% 11.52% auto; */
+    margin:10% 9.86% 30% auto;
   }
   .skills{
     flex-direction: row;
@@ -915,6 +924,13 @@ padding: 12px 12px 36px 12px;
   }
   .about{
     margin-top: 0;
+  }
+  .address-2{
+    width: 20%;
+
+  }
+  .separator{
+    width:100%;
   }
 }
 

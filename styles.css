@@ -344,6 +344,7 @@ width: 100%;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
+  margin-top:114px;
 }
 
 .detail-about {
@@ -475,7 +476,6 @@ width: 100%;
 }
 
 .la {
-  display: flex;
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -484,6 +484,7 @@ width: 100%;
   padding: 16px 26px 16px 12px;
   list-style: none;
   margin-top: 24px;
+
 }
 
 .lan-skill {
@@ -509,7 +510,7 @@ ul.languages {
 .language {
   display: flex;
   align-items: center;
-  gap: 137px;
+  justify-content: space-between;
 }
 
 .skills {
@@ -537,7 +538,7 @@ ul.languages {
 
 .contact-me {
   background: #6070ff;
-  border-top-left-radius: 60px;
+  border-top-left-radius: 100px;
   height: 779px;
   background-image: url(asset/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
@@ -879,10 +880,14 @@ background-size: contain;
     display: none;
   }
   .detail-about{
-    width:32%;
+    width:56%;
   }
   .myself{
     display: flex;
+    margin-top: 152px;
+  }
+  .about-myself{
+    margin: 11.52% auto auto 9.937%;
   }
   .languages{
     width: 40%;
@@ -903,6 +908,13 @@ padding: 12px 12px 36px 12px;
   .js-png {
     width: 48px;
     height: 48px;
+  }
+  .language{
+    display: flex;
+    justify-content: space-between;
+  }
+  .about{
+    margin-top: 0;
   }
 }
 

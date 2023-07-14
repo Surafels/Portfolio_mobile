@@ -92,7 +92,8 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 👤 **Surafel Chaka**
 - GitHub: [@Surafels](https://github.com/Surafels)
-
+ **Surafel Chaka**
+   GitHub:[@Riorazvanso]https://github.com/razvanso
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>

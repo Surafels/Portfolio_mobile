@@ -77,9 +77,10 @@ body {
   color: #172b4d;
   margin: 0 24px 12px 0;
   font-family: 'poppins', sans-serif;
-  transition: color 1se ease-in-out;
+  transition: color 1s ease-in-out;
 }
-.greeting:hover{
+
+.greeting:hover {
   color: red;
   cursor: pointer;
 }
@@ -121,8 +122,25 @@ body {
   align-items: center;
 }
 
+.can li {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.icon {
+  display: flex;
+  height: 20px;
+  justify-content: space-around;
+  gap: 12px;
+  margin-left: 0;
+  size: 20px;
+  list-style: none;
+}
+
 .icons li {
-  transition: scale .5s ease-in-out;
+  transition: scale 0.5s ease-in-out;
   cursor: pointer;
 }
 
@@ -170,13 +188,6 @@ body {
   height: 32px;
   justify-content: space-evenly;
   margin-left: -16px;
-}
-
-.can li {
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
 }
 
 .bed {
@@ -446,16 +457,6 @@ body {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
-
-.icon {
-  display: flex;
-  height: 20px;
-  justify-content: space-around;
-  gap: 12px;
-  margin-left: 0;
-  size: 20px;
-  list-style: none;
 }
 
 .down-arrow {

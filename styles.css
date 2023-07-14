@@ -906,6 +906,10 @@ background-size: contain;
   }
   .skills{
     flex-direction: row;
+    padding: 12px;
+  }
+  li.js{
+    padding: 12px 12px 20px 12px;
   }
 }
 

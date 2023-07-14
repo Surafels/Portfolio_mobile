@@ -321,7 +321,7 @@
 }
 
 .myself {
-  width: 375px;
+width: 100%;
   border-top-right-radius: 60px;
   background: var(--neutrals-n-10, #fff);
   font-family: 'poppins', sans-serif;
@@ -329,14 +329,12 @@
 
 .about-myself {
   display: flex;
-  padding: 114px 0;
   flex-direction: column;
   margin-left: 24px;
 }
 
 .about {
   display: flex;
-  width: 327px;
   height: 35px;
   flex-direction: column;
   justify-content: center;
@@ -350,7 +348,6 @@
 
 .detail-about {
   display: flex;
-  width: 327px;
   flex-direction: column;
   color: var(--neutrals-n-600, #344563);
   font-size: 16px;
@@ -707,6 +704,7 @@ hr {
   .daily{
     width: 100%;
   }
+  
 }
 
 /* desktop version */
@@ -746,7 +744,7 @@ header{
 
   .logo {
   }
-*/
+
   ul .info{
     color: var(--neutrals-n-600, #344563);
     text-align: center;
@@ -813,6 +811,7 @@ header{
     
   }
   .card-img{
+    display: flex;
     width: 50%;
     padding: 24px;
   }
@@ -831,13 +830,7 @@ margin: 0 auto 0 auto;;
   div[class^="card-"]:nth-of-type(even){
     flex-direction: row-reverse;
   }
-
-
-
-
-
-
-  .wr{
+ .wr{
     padding: 24px  24px 22px;
     display: flex;
     flex-direction: column;
@@ -848,12 +841,22 @@ margin: 0 auto 0 auto;;
   }
   .tonic ,.multi{
 margin-bottom: 16px;
+font-size: 40px;
+  }
+  li .canopy {
+    font-size: 18px;
+ 
   }
   .daily{
 margin: 24px 0;
+font-size: 16px;
   }
   .can{
 margin: 12px auto 12px 0;
+font-size: 18px;
+  }
+  .can li {
+    font-size: 18px;
   }
   .tag{
 margin: 0 0 24px 0;
@@ -890,6 +893,19 @@ background-size: contain;
   }
   hr{
     display: none;
+  }
+  .detail-about{
+    width:32%;
+  }
+  .myself{
+    display: flex;
+  }
+  .languages{
+    width: 40%;
+    margin: 0 9.86% 11.52% auto;
+  }
+  .skills{
+    flex-direction: row;
   }
 }
 

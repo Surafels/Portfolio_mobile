@@ -418,7 +418,6 @@ width: 100%;
 
 .arrow {
   padding: 8px;
-  width: 24px;
 }
 
 .lan {
@@ -427,9 +426,6 @@ width: 100%;
 
 .Js {
   display: flex;
-  width: 303px;
-  padding: 9px 0 9.716px 12px;
-  justify-content: center;
   align-items: center;
   gap: 16px;
   border-radius: 8px;
@@ -440,7 +436,6 @@ width: 100%;
   font-weight: 500;
   line-height: 20px;
   height: 66.71px;
-  margin-right: 24px;
 }
 
 .js-png {
@@ -450,27 +445,20 @@ width: 100%;
   border-radius: 48px;
   border: 1px solid var(--neutrals-n-0, #fff);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  margin-left: -170px;
 }
 
 .ch-png {
-  width: 48px;
-  height: 48px;
   flex-shrink: 0;
   border-radius: 48px;
   border: 1px solid var(--neutrals-n-0, #fff);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  margin-left: -220px;
 }
 
 .ht-png {
-  width: 48px;
-  height: 48px;
   flex-shrink: 0;
   border-radius: 48px;
   border: 1px solid var(--neutrals-n-0, #fff);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  margin-left: -210px;
 }
 
 .framework {
@@ -482,14 +470,12 @@ width: 100%;
   line-height: 24px;
   padding: 24px 26px 24px 12px;
   align-items: center;
-  gap: 126px;
   margin-right: 24px;
-  width: 237px;
+  justify-content: space-between;
 }
 
 .la {
   display: flex;
-  width: 237px;
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -503,46 +489,44 @@ width: 100%;
 .lan-skill {
   display: flex;
   align-items: center;
-  width: 237px;
   color: #000;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   padding: 24px 26px 24px 12px;
-  gap: 199px;
+  justify-content: space-between;
+  margin-right: 24px;
 }
 
 ul.languages {
   display: flex;
   flex-direction: column;
   list-style: none;
+  margin-left: 24px;
 }
 
 .language {
   display: flex;
   align-items: center;
-  width: 237px;
   gap: 137px;
 }
 
 .skills {
   display: flex;
-  padding: 12px;
+  padding:  24px 24px 24px 0;
   flex-direction: column;
-  align-items: center;
   gap: 12px;
-  height: 224px;
   list-style: none;
 }
 
 .separator {
   display: flex;
-  width: 327px;
   height: 1px;
   margin-left: 0;
   flex-shrink: 0;
   background: var(--neutrals-n-40, #dfe1e6);
+  width:327px;
 }
 
 .contact-form {
@@ -907,9 +891,18 @@ background-size: contain;
   .skills{
     flex-direction: row;
     padding: 12px;
+    gap:12px;
   }
   li.js{
     padding: 12px 12px 20px 12px;
+  }
+  .Js{
+    flex-direction: column;
+padding: 12px 12px 36px 12px;
+  }
+  .js-png {
+    width: 48px;
+    height: 48px;
   }
 }
 

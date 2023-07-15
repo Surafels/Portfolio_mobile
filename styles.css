@@ -735,13 +735,14 @@ hr {
     background-color: #fff;
     background-image: url(asset/Header\ bg@2x.png);
     background-repeat: no-repeat;
-    background-size: 99%;
-    background-position: top 118px right 0;
+    background-size: 98%;
+    background-position: top 48px right 0;
     border-bottom-left-radius: 100px;
     width: 100%;
     margin: auto;
-    padding: 25.343% 25.343%;
     box-sizing: border-box;
+    height: 846px;
+    padding: 18.343% 21%;
   }
 
   .greeting {

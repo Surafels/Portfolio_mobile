@@ -646,8 +646,6 @@ hr {
   border-radius: 10px;
   background: #0d151e;
   margin: 8px auto;
-
-  /* margin-top: 30px; */
 }
 
 .top {
@@ -752,7 +750,6 @@ hr {
   }
 
   .detail {
-    margin: auto;
     height: 98px;
   }
 

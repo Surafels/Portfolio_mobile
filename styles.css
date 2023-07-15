@@ -117,8 +117,6 @@ body {
   background-color: #f7f7f9;
   gap: 88px;
   font-family: 'poppins', sans-serif;
-
-  /* width: 375px; */
 }
 
 .card-1 {
@@ -133,12 +131,6 @@ body {
   margin: 0 24px 0 24px;
 }
 
-/*
-.tcb {
-  margin-left: 16px;
-  margin-top: -12px;
-}
-*/
 .can {
   display: flex;
   gap: 24px;
@@ -188,16 +180,6 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-
-/*
-.tags {
-  display: flex;
-  width: 214px;
-  height: 24px;
-  position: relative;
-  right: 64px;
-}
-*/
 
 .tag {
   display: flex;
@@ -691,7 +673,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: #e5e5e5;
+    background-color: #f7f7f9;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -771,7 +753,6 @@ hr {
 
   .detail {
     margin: auto;
-    font-size: 20px;
     height: 98px;
   }
 
@@ -780,10 +761,11 @@ hr {
   }
 
   .grid-container {
-    border: 1px solid #dfe1e6;
+    border: 1px solid #f7f7f9;
     width: 100%;
     padding-top: 9.86%;
     background: var(--neutrals-n-10, #f7f7f9);
+    gap: 142px;
   }
 
   .card-img {
@@ -798,8 +780,7 @@ hr {
     flex-direction: row;
     height: 496px;
     border-radius: 24px;
-    border: 1px solid var(--neutrals-n-40, #dfe1e6); /*
-background: var(--neutrals-n-0, #FFF); */
+    border: 1px solid var(--neutrals-n-40, #dfe1e6);
     width: 80%;
     align-items: normal;
     gap: 0;
@@ -859,6 +840,7 @@ background: var(--neutrals-n-0, #FFF); */
     background-image: url(asset/contact\ for\ desk.png);
     background-repeat: no-repeat;
     background-size: contain;
+    margin-top: -125px;
   }
 
   .contact-form {
@@ -891,26 +873,31 @@ background: var(--neutrals-n-0, #FFF); */
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 0.8fr 1fr;
+    height: 668px;
   }
 
   .detail-about {
-    width: 60%;
+    width: 83%;
     height: auto;
   }
 
   .myself {
     display: flex;
     margin-top: 152px;
+    border-top-right-radius: 120px;
   }
 
   .about-myself {
-    /* margin: 11.52% auto auto 9.937%; */
     margin: 22.52% auto auto 15.937%;
   }
 
-  .languages {
-    /* margin: 0 9.86% 11.52% auto; */
-    margin: 10% 9.86% 30% auto;
+  .lan-div {
+    margin-right: 142px;
+    margin-top: 120px;
+  }
+
+  .la {
+    margin-top: 0;
   }
 
   .skills {
@@ -948,5 +935,14 @@ background: var(--neutrals-n-0, #FFF); */
 
   .separator {
     width: 100%;
+  }
+
+  .button-a {
+    margin-top: 30px;
+  }
+
+  .framework,
+  .lan-skill {
+    margin-right: 0;
   }
 }

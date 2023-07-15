@@ -573,6 +573,12 @@ ul.languages {
   align-items: center;
   width: 237px;
   gap: 137px;
+  transition: color 1s ease-in-out;
+}
+
+.language:hover {
+  color: crimson;
+  cursor: pointer;
 }
 
 .skills {

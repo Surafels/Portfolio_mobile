@@ -27,8 +27,8 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio_Mobile_] <a name="Portfolio_Mobile"></a>
-**[Portfolio_Mobile_]** is a portfolio project for the mobile version.
+# 📖 [Portfolio_Mobile_] <a name="Portfolio_Mobile_and_Desktop_version"></a>
+**[Portfolio_Mobile__and_Desktop_version]** is a portfolio project responsive for mobile and desktop version.
 
 ## 🛠 Built With <a name="built-with"></a>
 

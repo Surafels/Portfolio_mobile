@@ -3,8 +3,10 @@
 * {
   margin: 0;
   padding: 0;
-}
 
+
+/*
+@media screen and (min-width: 80%) { */ 
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -510,7 +512,9 @@ ul.languages {
 }
 
 .contact-form {
+
   width: 100%;
+
   flex-shrink: 0;
   margin-top: 62.85px;
 }
@@ -523,6 +527,11 @@ ul.languages {
   background-repeat: no-repeat;
   background-size: 61%;
   background-position: top 10px right 0;
+  border-top-left-radius: 60px;
+  background-image: url(asset/contact\ form\ shapes-mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: 62%;
+  background-position: top 18px right 0;
 }
 
 .contact {
@@ -552,23 +561,23 @@ ul.languages {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  margin-left: 24px;
-  margin-top: 12px;
+  margin: 12px auto 0;
 }
 
-.forms {
+form {
   display: flex;
   flex-direction: column;
-  margin-top: 42px;
+  margin: 42px auto 0;
+  max-width: 327px;
 }
 
 input {
   display: flex;
   flex-direction: column;
-  width: 305px;
   height: 26px;
   flex-shrink: 0;
-  margin-left: 24px;
+
+  /* margin-left: 24px; */
   margin-bottom: 20px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
@@ -578,9 +587,8 @@ input {
   color: var(--neutral-n-800, #172b4d);
 }
 
-#email #name {
-  display: flex;
-  justify-content: center;
+#email,
+#name {
   color: var(--neutral-n-800, #172b4d);
   font-size: 17px;
   font-style: normal;
@@ -594,6 +602,12 @@ input {
 
 textarea {
   width: 310px;
+=======
+form input::placeholder {
+  color: var(--neutral-n-800, #172b4d);
+}
+
+textarea {
   height: 168px;
   flex-shrink: 0;
   border-radius: 8px;
@@ -604,15 +618,16 @@ textarea {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 24px;
+
+  /* margin-left: 24px; */
+}
+
+#message {
+  padding: 15px;
 }
 
 .button-contact {
-  display: flex;
   padding: 12px 16px;
-  align-items: center;
-  position: relative;
-  gap: 10px;
   color: var(--primary-b-400, #6070ff);
   text-align: center;
   font-size: 17px;
@@ -621,11 +636,14 @@ textarea {
   line-height: 24px;
   letter-spacing: 0.51px;
   margin-top: 12px;
+  margin-bottom: 12px;
   border-radius: 8px;
   border: 1px solid var(--primary-b-400, #6070ff);
-  margin-left: 24px;
+
+  /* margin-left: 24px; */
   background: var(--neutrals-n-0, #fff);
   cursor: pointer;
+  align-self: flex-start;
 }
 
 .button-contact:hover {
@@ -646,9 +664,9 @@ hr {
   flex-shrink: 0;
   border-radius: 10px;
   background: #0d151e;
-  margin-left: 120px;
-  margin-bottom: 8px;
-  margin-top: 30px;
+  margin: 8px auto;
+
+  /* margin-top: 30px; */
 }
 
 .top {

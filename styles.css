@@ -8,10 +8,11 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
-.hidden{
-  display:   none !important;
- 
+
+.hidden {
+  display: none !important;
 }
+
 .menu-bar {
   width: 20px;
   height: 3px;
@@ -19,61 +20,55 @@ body {
   border-radius: 8px;
   list-style-type: none;
 }
-.menu-toggle{
-  flex-direction: column;
-  gap:2px;
-  cursor: pointer;
-  padding-right: 0.2em;
-}
-.mobile-list{
+
+.mobile-list {
   margin-top: 62px;
   gap: 32px;
   color: var(--theme-1-neutrals-11, #fff);
-
 }
-.mobile-list>li{
+
+.mobile-list > li {
   display: flex;
   margin-left: 28px;
-width: 319px;
-height: 40px;
-padding: 8px 68px 8px 0px;
-align-items: center;
-flex-shrink: 0;
+  width: 319px;
+  height: 40px;
+  padding: 8px 68px 8px 0;
+  align-items: center;
+  flex-shrink: 0;
 }
-#mobile-menu{
+
+#mobile-menu {
   display: block;
   position: absolute;
-  gap:40px;
-  background: var(--theme-1-primary-colors-2, #6070FF);
+  gap: 40px;
+  background: var(--theme-1-primary-colors-2, #6070ff);
   mix-blend-mode: multiply;
   color: var(--theme-1-neutrals-11, #fff);
-font-size: 32px;
-font-style: normal;
-height: 812px;
-flex-shrink: 0;
-font-weight: 600;
-margin-top: -30px;
-line-height: 44px;
-backdrop-filter: blur(10px);
-
+  font-size: 32px;
+  font-style: normal;
+  height: 812px;
+  flex-shrink: 0;
+  font-weight: 600;
+  margin-top: -30px;
+  line-height: 44px;
+  backdrop-filter: blur(10px);
 }
-.Cancel-icon{
+
+.Cancel-icon {
   position: absolute;
   display: flex;
-width: 375px;
-height: 48px;
-padding: 4px 24px 4px 290px;
-justify-content: flex-end;
-align-items: center;
-flex-shrink: 0;
+  padding: 4px 24px 4px 290px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
   width: 24px;
   height: 24px;
   margin-left: 32px;
   cursor: pointer;
-  height: 24px;
-  top:56px;
-  color: #ffffff;
+  top: 56px;
+  color: #fff;
 }
+
 .paragraph {
   display: none;
 }
@@ -739,10 +734,12 @@ hr {
     background-color: #f7f7f9;
     font-family: 'Poppins', sans-serif;
   }
-  .hidden{
+
+  .hidden {
     display: none;
   }
-  #mobile-menu{
+
+  #mobile-menu {
     display: none;
   }
 
@@ -1015,4 +1012,3 @@ hr {
     margin-right: 0;
   }
 }
-

@@ -167,7 +167,6 @@ body {
   gap: 12px;
   margin-top: 0;
   margin-left: 0;
-  size: 20px;
   list-style: none;
   align-items: center;
 }
@@ -175,7 +174,6 @@ body {
 .grid-container {
   display: grid;
   padding-top: 114px;
-  grid-template: column;
   align-items: center;
   background-color: #f7f7f9;
   gap: 88px;
@@ -448,7 +446,6 @@ body {
   justify-content: space-around;
   gap: 12px;
   margin-left: 0;
-  size: 20px;
   list-style: none;
 }
 

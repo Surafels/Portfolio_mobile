@@ -1,7 +1,7 @@
-let humbergerMenu=document.querySelector('#menu-toggle');
-let closingMenu= document.querySelector('#cancel-icon');
+let humbergerMenu=document.querySelector('#menu-t');
+let closingMenu= document.querySelector('#cancel');
 let mobileMenuContainer= document.querySelector('#mobile-menu');
-let mobileList= document.querySelector('#mobile-list');
+let mobileList= document.querySelector('.mobile-list');
 function openmenu() {
     mobileMenuContainer.classList.remove('hidden');}
 humbergerMenu.addEventListener("click", openmenu);

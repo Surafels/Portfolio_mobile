@@ -26,11 +26,14 @@ body {
   padding-right: 0.2em;
 }
 .mobile-list{
-  margin-top: 106px;
+  margin-top: 62px;
+  gap: 32px;
+  color: var(--theme-1-neutrals-11, #fff);
+
 }
 .mobile-list>li{
   display: flex;
-  margin-left: 12px;
+  margin-left: 28px;
 width: 319px;
 height: 40px;
 padding: 8px 68px 8px 0px;
@@ -46,18 +49,20 @@ flex-shrink: 0;
   color: var(--theme-1-neutrals-11, #fff);
 font-size: 32px;
 font-style: normal;
-width: 375px;
 height: 812px;
 flex-shrink: 0;
 font-weight: 600;
+margin-top: -30px;
 line-height: 44px;
+backdrop-filter: blur(10px);
+
 }
 .Cancel-icon{
   position: absolute;
   display: flex;
 width: 375px;
 height: 48px;
-padding: 4px 24px 4px 311px;
+padding: 4px 24px 4px 290px;
 justify-content: flex-end;
 align-items: center;
 flex-shrink: 0;
@@ -735,6 +740,9 @@ hr {
     font-family: 'Poppins', sans-serif;
   }
   .hidden{
+    display: none;
+  }
+  #mobile-menu{
     display: none;
   }
 

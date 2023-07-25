@@ -25,13 +25,25 @@ body {
   cursor: pointer;
   padding-right: 0.2em;
 }
+.mobile-list{
+  margin-top: 106px;
+}
+.mobile-list>li{
+  display: flex;
+  margin-left: 12px;
+width: 319px;
+height: 40px;
+padding: 8px 68px 8px 0px;
+align-items: center;
+flex-shrink: 0;
+}
 #mobile-menu{
   display: block;
   position: absolute;
   gap:40px;
   background: var(--theme-1-primary-colors-2, #6070FF);
   mix-blend-mode: multiply;
-  color: var(--theme-1-neutrals-11, #ce1616);
+  color: var(--theme-1-neutrals-11, #fff);
 font-size: 32px;
 font-style: normal;
 width: 375px;
@@ -43,14 +55,18 @@ line-height: 44px;
 .Cancel-icon{
   position: absolute;
   display: flex;
+width: 375px;
+height: 48px;
+padding: 4px 24px 4px 311px;
+justify-content: flex-end;
+align-items: center;
+flex-shrink: 0;
   width: 24px;
   height: 24px;
   margin-left: 32px;
-  top:18px;
-  right:38px;
   cursor: pointer;
   height: 24px;
-  padding: 8px;
+  top:56px;
   color: #ffffff;
 }
 .paragraph {

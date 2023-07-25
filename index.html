@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile_and_desktop_version_portfolio</title>
     <link rel="stylesheet" href ="styles.css">
+   
 </head>
 <body>
+    <nav id="mobile-menu" class="hidden">
+            <ul class="mobile-list">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <button id="menu-toggle">
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+              </button>
+           <img class="Cancel-icon" id="cancel" src="asset/Icon - Cancel.png" alt="Cancel-icon">
+            </nav>
     <header>
         <div class="top-head">
-        <a class="logo" href="#">My Logo</a> <img class="img" src="asset/Union.png" alt="Union">
+      <a class="logo" href="#">My Logo</a> <img class="menu-toggle" id="menu-t" src="asset/Union.png" alt="Union">  
     </div>
     </header>
     <header>
+      
         <div class="top">
         <a class="logo" href="#">My logo</a>
             <ul class="info">
@@ -220,6 +235,6 @@
 <hr>
 </div>
 </section>
-    
+<script   src="script.js"></script>   
 </body>
 </html>

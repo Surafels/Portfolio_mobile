@@ -8,7 +8,24 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
-
+.hidden{
+  display:   none !important;
+}
+#mobile-menu{
+  display: block;
+  flex-direction: column;
+  gap:40px;
+  color: var(--theme-1-neutrals-11, #FFF);
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+}
+.Cancel-icon{
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+}
 .paragraph {
   display: none;
 }
@@ -25,10 +42,11 @@ body {
   margin: 30px 0 0 24px;
 }
 
-.img {
+.menu-toggle {
   height: 24px;
   width: 24px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .logo {
@@ -673,6 +691,9 @@ hr {
     background-color: #f7f7f9;
     font-family: 'Poppins', sans-serif;
   }
+  .mobil-menu{
+    display: none;
+  }
 
   header {
     background-color: #fff;
@@ -943,3 +964,4 @@ hr {
     margin-right: 0;
   }
 }
+

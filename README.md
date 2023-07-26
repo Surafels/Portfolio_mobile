@@ -36,9 +36,12 @@
   <summary>Client</summary>
   <ul>
     <li>
-      HTML <br>
-      CSS
-      </>
+      HTML
+      </li>
+      <li>CSS 
+      </li>
+      <li>
+      javascript
     </li>
   </ul>
 </details>
@@ -49,7 +52,6 @@
 - **[Linters]**
 - **[Webhint]**
 - **[Stylelint]**
--
 - **Added the styles for header**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

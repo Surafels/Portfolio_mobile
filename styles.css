@@ -27,7 +27,7 @@ body {
   color: var(--theme-1-neutrals-11, #fff);
 }
 
-.mobile-list > li {
+.nav-link {
   display: flex;
   margin-left: 28px;
   width: 319px;
@@ -35,11 +35,14 @@ body {
   padding: 8px 68px 8px 0;
   align-items: center;
   flex-shrink: 0;
+  text-decoration: none;
+  color: var(--theme-1-neutrals-11, #FFF);
+
 }
 
 #mobile-menu {
   display: block;
-  position: absolute;
+  position: fixed;
   gap: 40px;
   background: var(--theme-1-primary-colors-2, #6070ff);
   mix-blend-mode: multiply;

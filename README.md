@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -52,23 +52,31 @@
   </ul>
 </details>
 ### Key Features <a name="key-features"></a>
-- **[Linters]**
-- **[Webhint]**
-- **[Stylelint]**
+ **[Navigation bar]**
+- **[Header section - Introduction]**
+- **[Work Portfolio section - Project description]**
+- **[About Section - About Myself]**
+- **[Contact-me-Section - Contact-Form]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
-- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
-- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) 
+In order to run this project you need:
+1. Code editor
+2. Web browser
+3. Git
 
 ### Setup
 
-1. Download the **Zip** file or clone the repo with:
-```bash git clone git@github.com:Surafels/Portfolio_Mobile.git ``` 
-2. To access cloned directory run: 
-```bash cd Portfolio_Mobile ``` 
-3. Open it with the live server 
+Clone this repository to your desired folder:
+Run the below command:
+
+```sh
+cd <your disered folder name >
+git clone https://github.com/Surafels/Portfolio_Mobile
 
 ### Install
 
@@ -96,7 +104,12 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[feature/setub]**
+
+> Describe 1 - 3 features you will add to the project.
+- [ ] Add footer
+- [ ] Add more pages
+- [ ] Add javascript file
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>

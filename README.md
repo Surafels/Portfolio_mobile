@@ -34,12 +34,13 @@
 ### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>Client</summary>
-</details>
-<details>
-  <summary>Server</summary>
-</details>
-<details>
-<summary>Database</summary>
+  <ul>
+    <li>
+      HTML <br>
+      CSS
+      </>
+    </li>
+  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>

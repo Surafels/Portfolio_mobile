@@ -59,12 +59,9 @@
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) 
 
 ### Setup
+Clone this repository to your desired folder:
 
-1. Download the **Zip** file or clone the repo with:
-```bash git clone git@github.com:Surafels/Portfolio_Mobile.git ``` 
-2. To access cloned directory run: 
-```bash cd Portfolio_Mobile ``` 
-3. Open it with the live server 
+https://github.com/Surafels/Portfolio_Mobile
 
 ### Install
 
@@ -73,8 +70,11 @@
 ### Usage
 
 To run the project, execute the following command:
-
-> npm install
+1. Download the **Zip** file or clone the repo with:
+```bash git clone git@github.com:Surafels/Portfolio_Mobile.git ``` 
+2. To access cloned directory run: 
+```bash cd Portfolio_Mobile ``` 
+3. Open it with the live server 
 
 ## Run
 

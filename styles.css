@@ -36,8 +36,7 @@ body {
   align-items: center;
   flex-shrink: 0;
   text-decoration: none;
-  color: var(--theme-1-neutrals-11, #FFF);
-
+  color: var(--theme-1-neutrals-11, #fff);
 }
 
 #mobile-menu {
@@ -49,12 +48,17 @@ body {
   color: var(--theme-1-neutrals-11, #fff);
   font-size: 32px;
   font-style: normal;
-  height: 812px;
+  height: 100vh;
+  width: 100%;
   flex-shrink: 0;
   font-weight: 600;
   margin-top: -30px;
   line-height: 44px;
   backdrop-filter: blur(10px);
+}
+
+.Cancel-icon::before {
+  content: "\f00d";
 }
 
 .Cancel-icon {

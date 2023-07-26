@@ -18,7 +18,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -47,20 +46,16 @@
 </details>
 <details>
 <summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
 > Key features of the application.
-
-- **[Navigation bar]**
-- **[Header section - Introduction]**
-- **[Work Portfolio section - Project description]**
-- **[About Section - About Myself]**
-- **[Contact-me-Section - Contact-Form]**
+- **[Linters]**
+- **[Webhint]**
+- **[Stylelint]**
+-
+- **Added the styles for header**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -103,7 +98,10 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[feature/setub]**
+- [ ] **Portfolio**
+- [ ] **Mobile Version**
+- [ ] **Desktop Version**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>

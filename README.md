@@ -34,15 +34,9 @@
 ### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
 </details>
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
 </details>
 <details>
 <summary>Database</summary>
@@ -75,6 +69,12 @@
 ### Install
 
 ```bash npm install ``` 
+
+### Usage
+
+To run the project, execute the following command:
+
+> npm install
 
 ## Run
 

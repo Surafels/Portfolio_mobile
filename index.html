@@ -10,10 +10,11 @@
 <body>
     <nav id="mobile-menu" class="hidden">
             <ul class="mobile-list">
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li onclick="openmenu()" class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li onclick="openmenu()" class="nav-item"><a class="nav-link" href="#about-me">About</a></li>
+                <li onclick="openmenu()" class="nav-item"><a class="nav-link" href="#Contact-me">Contact</a></li>
             </ul>
+
             <button id="menu-toggle">
                 <span class="menu-bar"></span>
                 <span class="menu-bar"></span>
@@ -61,7 +62,7 @@
             </div> 
     </section>  
     <section class="grid-container">
-        <div class="card-1">
+        <div class="card-1" id="portfolio">
             <img class="card-im" src="asset/Snapshoot Portfolio.png">
             <img class="card-img" src="asset/desk 1.png">
 
@@ -171,7 +172,7 @@
 </div>
     </section> 
 
-    <section class="myself">
+    <section class="myself" id="about-me">
         <article class="about-sec">
         <div class="about-myself">
         <h2 class="about">About Myself</h2>
@@ -216,7 +217,7 @@
             </div>
         </article>
     </section> 
-    <section class="contact-form">
+    <section class="contact-form" id="Contact-me">
         <div class="contact-me">
 <h1 class="contact">Contact me</h1>
 <p class="contact-detail">If you have an application you are interested in developing, a

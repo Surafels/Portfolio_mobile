@@ -6,6 +6,7 @@ function openmenu() {
   mobileMenuContainer.classList.remove('hidden');
 }
 humbergerMenu.addEventListener('click', openmenu);
+
 function closemenu() {
   mobileMenuContainer.classList.add('hidden');
 }

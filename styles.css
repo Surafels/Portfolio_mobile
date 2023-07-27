@@ -844,12 +844,11 @@ hr {
   margin-top: 45px;
   gap: 12px;
   display: flex;
-  margin-left: -13px;
 }
 
 .see-bot {
   display: flex;
-  padding: 12px 22px;
+  padding: 12px;
   align-items: center;
   gap: 8px;
   color: var(--primary-b-500, #396df2);
@@ -861,6 +860,8 @@ hr {
   font-weight: 500;
   line-height: 20px;
   background: white;
+  white-space: nowrap;
+
 }
 
 @media screen and (width: 375px) {
@@ -889,11 +890,16 @@ hr {
   }
 
   .see-bot {
-    padding: 8px 25px;
+    padding: 13px;
+    white-space: nowrap;
+  }
+  .s-icon{
+margin-left: 10px;
   }
 
   .btn-popup {
     flex-wrap: wrap;
+    gap:16px;
   }
 
   .card-buttons {

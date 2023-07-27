@@ -791,7 +791,7 @@ hr {
   letter-spacing: 0.36px;
   border-radius: 8px;
   background: var(--primary-b-50, #ebebff);
-  border:none;
+  border: none;
 }
 
 .card-text {
@@ -861,7 +861,6 @@ hr {
   line-height: 20px;
   background: white;
   white-space: nowrap;
-
 }
 
 @media screen and (width: 375px) {
@@ -893,13 +892,14 @@ hr {
     padding: 13px;
     white-space: nowrap;
   }
-  .s-icon{
-margin-left: 10px;
+
+  .s-icon {
+    margin-left: 10px;
   }
 
   .btn-popup {
     flex-wrap: wrap;
-    gap:16px;
+    gap: 16px;
   }
 
   .card-buttons {

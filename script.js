@@ -13,103 +13,72 @@ function closemenu() {
 closingMenu.addEventListener('click', closemenu);
 mobileList.addEventListener('click', closemenu);
 
-
-const project=[
+const project = [
   {
-    id:1,
-    title:'Tonic',
-    projectInfo:{
-      campany:'CANOPY',
-      tech:'Back End Dev',
-      year:2015
+    id: 1,
+    title: 'Tonic',
+    projectInfo: {
+      campany: 'CANOPY',
+      tech: 'Back End Dev',
+      year: 2015,
     },
-  snapshoot:"asset/Snapshoot Portfolio.png",
-  projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  skills:['HTML','CSS','Ruby','JavaScript'] ,
-  seeLive:'https://github.com/Surafels/Portfolio_Mobile',
-  seeSource:'https://github.com/Surafels/Portfolio_Mobile.git',
+    snapshoot: 'asset/Snapshoot Portfolio.png',
+    projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+    seeLive: 'https://github.com/Surafels/Portfolio_Mobile',
+    seeSource: 'https://github.com/Surafels/Portfolio_Mobile.git',
   },
   {
     id: 2,
-    title:'Multi-Post Stories',
-    snapshoot:'asset/Snapshoot Portfolio.png',
+    title: 'Multi-Post Stories',
+    snapshoot: 'asset/Snapshoot Portfolio.png',
     projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    skills:['HTML','CSS','Ruby','JavaScript'] ,
-    projectInfo:{
-      campany:'Facebook',
-      tech:'Back End Dev',
-      year:2016
+    description: 'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+    projectInfo: {
+      campany: 'Facebook',
+      tech: 'Back End Dev',
+      year: 2016,
     },
-    seeLive:'https://github.com/Surafels/Portfolio_Mobile',
-    seeSource:'https://github.com/Surafels/Portfolio_Mobile.git',
+    seeLive: 'https://github.com/Surafels/Portfolio_Mobile',
+    seeSource: 'https://github.com/Surafels/Portfolio_Mobile.git',
   },
   {
     id: 3,
-    title:'Facebook 360',
-    snapshoot:'asset/Snapshoot Portfolio.png',
+    title: 'Facebook 360',
+    snapshoot: 'asset/Snapshoot Portfolio.png',
     projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 
-    description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    skills:['HTML','CSS','Ruby','JavaScript'] ,
-    projectInfo:{
-      campany:'Facebook',
-      tech:'Back End Dev',
-      year:2017
+    description: 'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+    projectInfo: {
+      campany: 'Facebook',
+      tech: 'Back End Dev',
+      year: 2017,
     },
-    seeLive:'https://github.com/Surafels/Portfolio_Mobile',
-    seeSource:'https://github.com/Surafels/Portfolio_Mobile.git',
+    seeLive: 'https://github.com/Surafels/Portfolio_Mobile',
+    seeSource: 'https://github.com/Surafels/Portfolio_Mobile.git',
   },
   {
     id: 4,
-    title:'Uber Navigation',
-    snapshoot:'asset/Snapshoot Portfolio.png',
+    title: 'Uber Navigation',
+    snapshoot: 'asset/Snapshoot Portfolio.png',
     projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 
-    description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    skills:['HTML','CSS','Ruby','JavaScript'] ,
-    projectInfo:{
-      campany:'Uber',
-      tech:'Back End Dev',
-      year:2018
+    description: 'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+    projectInfo: {
+      campany: 'Uber',
+      tech: 'Back End Dev',
+      year: 2018,
     },
-    seeLive:'https://github.com/Surafels/Portfolio_Mobile',
-    seeSource:'https://github.com/Surafels/Portfolio_Mobile.git',
-  }
+    seeLive: 'https://github.com/Surafels/Portfolio_Mobile',
+    seeSource: 'https://github.com/Surafels/Portfolio_Mobile.git',
+  },
 ];
-  const bodySection = document.querySelector('container');
-  const section = document.createElement('section');
-  section.className= 'cards';
-  /** 
-project.forEach((project) => {
-  section.innerHTML = <div class="snap-image"> 
-   <img class='snop-img' src = {project.snapshoot} alt="#" />
-    </div>;
-  <div class="Ton">
-    <h2 class="title">{project.title}</h2>
-    <ul class="items">
-      <li class='item-canopy'>{project.campony}</li>
-      <li class='item-bed'>{project.tech}</li>
-      <li class='item-year'>{project.year}</li>
-
-    </ul>
-   
-   <p class='card-detail'>{project.description}</p>
-  <div class='skils-btn'>
-   <button class ='ski-btn'> {project.skills[1]}</button>
-   <button class ='ski-btn'> {project.skills[2]}</button>
-   <button class ='ski-btn'> {project.skills[3]}</button>
-   <button class ='ski-btn'> {project.skills[4]}</button>
-  </div>
-  <div class='Button'>
-    <button class ='b-bot' type="button" id= "btn-{project.id}">See project</button>
-  </div>
-  </div>
-;
-bodySection.append(section);
-});
-*/
+const section = document.createElement('section');
+section.className = 'cards';
 const body = document.querySelector('body');
 project.forEach((project) => {
   const popupWindow = document.createElement('div');
@@ -185,7 +154,6 @@ const popup1 = document.getElementById('card-1');
 const popup2 = document.getElementById('card-2');
 const popup3 = document.getElementById('card-3');
 const popup4 = document.getElementById('card-4');
-console.log(popup1)
 
 feature1.addEventListener('click', () => {
   popup1.classList.toggle('active');

@@ -24,7 +24,7 @@ const project=[
       year:2015
     },
   snapshoot:"asset/Snapshoot Portfolio.png",
-  projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+  projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   skills:['HTML','CSS','Ruby','JavaScript'] ,
   seeLive:'https://github.com/Surafels/Portfolio_Mobile',
@@ -34,7 +34,7 @@ description:'Lorem Ipsum is simply dummy text of the printing and type setting i
     id: 2,
     title:'Multi-Post Stories',
     snapshoot:'asset/Snapshoot Portfolio.png',
-    projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     skills:['HTML','CSS','Ruby','JavaScript'] ,
     projectInfo:{
@@ -49,7 +49,7 @@ description:'Lorem Ipsum is simply dummy text of the printing and type setting i
     id: 3,
     title:'Facebook 360',
     snapshoot:'asset/Snapshoot Portfolio.png',
-    projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 
     description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     skills:['HTML','CSS','Ruby','JavaScript'] ,
@@ -65,7 +65,7 @@ description:'Lorem Ipsum is simply dummy text of the printing and type setting i
     id: 4,
     title:'Uber Navigation',
     snapshoot:'asset/Snapshoot Portfolio.png',
-    projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 
     description:'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     skills:['HTML','CSS','Ruby','JavaScript'] ,
@@ -133,10 +133,10 @@ project.forEach((project) => {
       <div class="portfolio-popup-image">
         <img class="popup-image" src="${project.snapshoot}" alt="Snap image for background">
       </div>
-      <div class="popup-left-block">
+      <div class="popup-wrap">
        
       
-        <div class="card-btn-para">
+        <div class="btn-descr">
         <p class="card-text">${project.projectDescription} <br>
         ${project.description}
         </p>

@@ -734,7 +734,6 @@ gap: 12px;
 border-radius: 16px;
 border: 1px solid var(--neutrals-n-40, #DFE1E6);
 background: var(--neutrals-n-0, #FFF);
-height: 823px;
 flex-shrink: 0;
 margin-left:20px;
 width:80%;
@@ -745,6 +744,7 @@ width:80%;
 
 .popup-window {
   display: block;
+  display: none;
 }
 
 .popup-window.active {
@@ -830,7 +830,8 @@ line-height: 16px; /* 123.077% */
 }
 .popup-image{
 border-radius: 8px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+background:  lightgray 50% / cover no-repeat;
+width: 100%;
 }
 .Separetor{
 height: 0px;
@@ -861,6 +862,7 @@ font-weight: 500;
 line-height: 20px; /* 133.333% */
 }
 
+
 @media screen and (width: 375px) {
   .daily {
     width: 100%;
@@ -873,6 +875,32 @@ line-height: 20px; /* 133.333% */
   body {
     background-color: #f7f7f9;
     font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-text{
+    width:80%;
+  }
+  
+  .btn-descr{
+display: flex;
+gap:28px;
+margin-top:59px;
+  }
+  .see-bot{
+    padding: 8px 25px;
+
+  }
+  .btn-popup{
+    flex-wrap: wrap;
+  }
+  .card-buttons{
+    margin-left:20px;
+  }
+  .card-popup{
+    margin:0 80px;
+  }
+  .card-text{
+height: 271px;
   }
 
   .hidden {

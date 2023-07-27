@@ -893,10 +893,6 @@ hr {
     white-space: nowrap;
   }
 
-  .s-icon {
-    margin-left: 10px;
-  }
-
   .btn-popup {
     flex-wrap: wrap;
     gap: 16px;

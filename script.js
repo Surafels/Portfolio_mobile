@@ -186,3 +186,40 @@ feature4.addEventListener('click', () => {
 IconClose4.addEventListener('click', () => {
   popup4.classList.toggle('active');
 });
+
+
+         /*Contact form*/
+const ContactForm=document.getElementById('contact-form');
+const email=document.getElementById('email');
+const nameF=document.getElementById('name');
+const message=document.getElementById('message');
+const errorMsg=document.getElementById('errormsg'); 
+function contactForm(event){
+  if(email.value===""){
+    errorMsg.style.display=block;
+    errorMsg.innerHTML= "Please enter your email";
+    event.preventDefault();
+  }else if(
+    email.value===email.value.toUpperCase()){
+      errorMsg.innerHTML= "Please enter you email in Lowercase ";
+    }
+    else if(
+      /[A-Z]/.test(email.value)){
+        errorMsg.style.display="block";
+        errorMsg.innerHTML= "Please enter your email in Lower Case";
+        event.preventDefault();
+      }
+      else if(nameF.value==""){
+        errorMsg.style.display="block";
+        errorMsg.innerHTML= "Please write your name";
+        event.preventDefault();
+      }
+      else if(message.value==""){
+        errorMsg.style.display="block";
+        errorMsg.innerHTML= "Please write your message";
+        event.preventDefault();
+      }
+
+  }
+ContactForm.addEventListener("submit", contactForm);
+     

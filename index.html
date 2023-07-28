@@ -5,23 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile_and_desktop_version_portfolio</title>
     <link rel="stylesheet" href ="styles.css">
+   
 </head>
 <body>
+    <!-- Start of Menu bar -->
+    <nav id="mobile-menu" class="hidden">
+            <ul class="mobile-list">
+                <li onclick="openmenu()" class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li onclick="openmenu()" class="nav-item"><a class="nav-link" href="#about-me">About</a></li>
+                <li onclick="openmenu()" class="nav-item"><a class="nav-link" href="#Contact-me">Contact</a></li>
+            </ul>
+
+            <button id="menu-toggle">
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+              </button>
+           <img class="Cancel-icon" id="cancel" src="asset/Icon - Cancel.png" alt="Cancel-icon">
+            </nav>
+    <!-- End of Menu bar -->
     <header>
         <div class="top-head">
-        <a class="logo" href="#">My Logo</a> <img class="img" src="asset/Union.png" alt="Union">
+      <a class="logo" href="#">My Logo</a> <img class="menu-toggle" id="menu-t" src="asset/Union.png" alt="Union">  
     </div>
     </header>
+    <!--Popup Window header start-->
     <header>
+      
         <div class="top">
         <a class="logo" href="#">My logo</a>
             <ul class="info">
-                <li class="port">Portfolio</li>
-                <li class="abt">About</li>
-                <li class="cont">Contact</li>
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
             </ul>
             </div>
         </header>
+     <!--Popup Window header end-->
     <section class="intro">
         <div class="introduction">
        <h1 class="greeting">I'm Surafel.<br>
@@ -42,9 +62,9 @@
 
                 </ul>
             </div> 
-    </section>  
+ </section>  
     <section class="grid-container">
-        <div class="card-1">
+        <div class="card-1" id="portfolio">
             <img class="card-im" src="asset/Snapshoot Portfolio.png">
             <img class="card-img" src="asset/desk 1.png">
 
@@ -66,7 +86,7 @@
             <li class="jav">JavaScript</li>
         </ul>
    </div> 
-    <button class="button">See project</button>
+    <button class="button" id="bot-1">See project</button>
 </div>
 </div>
     </div> 
@@ -94,7 +114,7 @@
                 <li class="jav">JavaScript</li>
             </ul>
         </div>
-        <button class="button">See project</button>
+        <button class="button" id="bot-2">See project</button>
     </div>
     </div> 
     </div>
@@ -120,7 +140,7 @@
         <li class="jav">JavaScript</li>
     </ul>
 </div>
-<button class="button">See project</button>
+<button class="button" id="bot-3">See project</button>
 </div> 
 </div>
     </div>
@@ -146,7 +166,7 @@
             <li class="jav">JavaScript</li>
         </ul>
     </div>
-    <button class="button">See project</button>
+    <button class="button" id="bot-4">See project</button>
 </div>
 
     </div>
@@ -154,7 +174,7 @@
 </div>
     </section> 
 
-    <section class="myself">
+    <section class="myself" id="about-me">
         <article class="about-sec">
         <div class="about-myself">
         <h2 class="about">About Myself</h2>
@@ -199,7 +219,7 @@
             </div>
         </article>
     </section> 
-    <section class="contact-form">
+    <section class="contact-form" id="Contact-me">
         <div class="contact-me">
 <h1 class="contact">Contact me</h1>
 <p class="contact-detail">If you have an application you are interested in developing, a
@@ -220,6 +240,6 @@
 <hr>
 </div>
 </section>
-    
+<script   src="script.js"></script>  
 </body>
 </html>

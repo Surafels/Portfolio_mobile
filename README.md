@@ -18,7 +18,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -36,25 +35,25 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>
+      HTML
+      </li>
+      <li>CSS 
+      </li>
+      <li>
+      javascript
+    </li>
   </ul>
 </details>
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+
 ### Key Features <a name="key-features"></a>
+
+> Key features of the application.
 - **[Linters]**
 - **[Webhint]**
 - **[Stylelint]**
+- **Added the styles for header**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
 ### Prerequisites
@@ -63,16 +62,22 @@
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) 
 
 ### Setup
+Clone this repository to your desired folder:
 
+https://github.com/Surafels/Portfolio_Mobile
+
+### Install
+
+```bash npm install ``` 
+
+### Usage
+
+To run the project, execute the following command:
 1. Download the **Zip** file or clone the repo with:
 ```bash git clone git@github.com:Surafels/Portfolio_Mobile.git ``` 
 2. To access cloned directory run: 
 ```bash cd Portfolio_Mobile ``` 
 3. Open it with the live server 
-
-### Install
-
-```bash npm install ``` 
 
 ## Run
 
@@ -96,7 +101,10 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[feature/setub]**
+- [ ] **Portfolio**
+- [ ] **Mobile Version**
+- [ ] **Desktop Version**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>

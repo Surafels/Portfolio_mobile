@@ -201,6 +201,7 @@ function contactForm(event) {
   } else if (
     email.value !== email.value.toLowerCase()) {
     errorMsg.innerHTML = 'Please enter you email in Lowercase ';
+    event.preventDefault();
   } else if (
     /[A-Z]/.test(email.value)) {
     errorMsg.style.display = 'block';

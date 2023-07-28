@@ -218,9 +218,9 @@ function contactForm(event) {
   }
 }
 ContactForm.addEventListener('submit', contactForm);
-  
-                 /*store data*/
-                 const localStorageObject = {
+
+/* store data */
+const localStorageObject = {
   name: '',
   email: '',
   message: '',
@@ -266,20 +266,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-/* Preserve data in the browser*/
-contactForm.addEventListener('submit',() => {
-  const dataStore ={
-    storeName : nameF.vale,
-    storeEmail:email.value,
-    storeMessage:message.value,
+/* Preserve data in the browser */
+contactForm.addEventListener('submit', () => {
+  const dataStore = {
+    storeName: nameF.vale,
+    storeEmail: email.value,
+    storeMessage: message.value,
   };
   localStorage.setItem('dataStore', JSON.stringify(dataStore));
 });
-window.onload=function dataLoad(){
+window.onload = function dataLoad() {
   const data = JSON.parse(localStorage.getItem('dataStore'));
-  if(data){
+  if (data) {
     nameF.value = data.storeName;
     email.value = data.storeEmail;
     message.value = data.storeMessage;
   }
-}
+};

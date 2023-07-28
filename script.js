@@ -32,7 +32,7 @@ const project = [
   {
     id: 2,
     title: 'Multi-Post Stories',
-    snapshoot: 'asset/Snapshoot Portfolio.png',
+    snapshoot: 'asset/Snapshoot Portfolio (1).png',
     projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: 'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
@@ -47,7 +47,7 @@ const project = [
   {
     id: 3,
     title: 'Facebook 360',
-    snapshoot: 'asset/Snapshoot Portfolio.png',
+    snapshoot: 'asset/Snapshoot Portfolio (2).png',
     projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 
     description: 'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -63,7 +63,7 @@ const project = [
   {
     id: 4,
     title: 'Uber Navigation',
-    snapshoot: 'asset/Snapshoot Portfolio.png',
+    snapshoot: 'asset/Snapshoot Portfolio (3).png',
     projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 
     description: 'Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',

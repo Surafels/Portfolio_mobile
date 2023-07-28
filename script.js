@@ -218,3 +218,68 @@ function contactForm(event) {
   }
 }
 ContactForm.addEventListener('submit', contactForm);
+  
+                 /*store data*/
+                 const localStorageObject = {
+  name: '',
+  email: '',
+  message: '',
+};
+const storageObjectName = 'formDataPm';
+const existingObject = localStorage.getItem(storageObjectName);
+if (existingObject) {
+  const name = document.getElementsByClassName('user-name')[0].value;
+  const email = document.getElementsByClassName('user-email')[0].value;
+  const message = document.getElementById('user_message').value;
+  const objectData = JSON.parse(existingObject);
+  name.value = objectData.name;
+  email.value = objectData.email;
+  message.value = objectData.message;
+}
+
+function storeFormInLocalStorage(data) {
+  const objectString = JSON.stringify(data);
+  const existingObject = localStorage.getItem(storageObjectName);
+  if (existingObject) {
+    localStorage.removeItem(storageObjectName);
+  }
+  localStorage.setItem(storageObjectName, objectString);
+}
+
+function manageEvent() {
+  const name = document.getElementsByClassName('user-name')[0].value;
+  const email = document.getElementsByClassName('user-email')[0].value;
+  const message = document.getElementById('user_message').value;
+  localStorageObject.name = name;
+  localStorageObject.email = email;
+  localStorageObject.message = message;
+  storeFormInLocalStorage(localStorageObject);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('myForm');
+  if (form) {
+    const formInputFields = form.querySelectorAll('input, select, textarea');
+    for (let i = 0; i < formInputFields.length; i += 1) {
+      formInputFields[i].addEventListener('input', manageEvent);
+    }
+  }
+});
+
+/* Preserve data in the browser*/
+contactForm.addEventListener('submit',() => {
+  const dataStore ={
+    storeName : nameF.vale,
+    storeEmail:email.value,
+    storeMessage:message.value,
+  };
+  localStorage.setItem('dataStore', JSON.stringify(dataStore));
+});
+window.onload=function dataLoad(){
+  const data = JSON.parse(localStorage.getItem('dataStore'));
+  if(data){
+    nameF.value = data.storeName;
+    email.value = data.storeEmail;
+    message.value = data.storeMessage;
+  }
+}

@@ -862,6 +862,8 @@ hr {
   line-height: 20px;
   background: white;
   white-space: nowrap;
+  cursor: pointer;
+
 }
 
 @media screen and (width: 375px) {

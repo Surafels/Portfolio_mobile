@@ -176,6 +176,7 @@ body {
   margin-left: 0;
   list-style: none;
   align-items: center;
+  cursor: pointer;
 }
 
 .grid-container {
@@ -953,6 +954,7 @@ hr {
     font-weight: 500;
     line-height: 20px;
     gap: 8px;
+    cursor: pointer;
   }
 
   .port,
